@@ -18,7 +18,7 @@
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides>
-    <VersionOverride xsi:type="VersionOverridesV1_0">
+    <VersionOverride xsi:type="VersionOverridesV1_1">
       <Hosts>
         <Host xsi:type="Presentation">
           <DesktopFormFactor>
