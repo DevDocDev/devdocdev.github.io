@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>DICOM Viewer</title>
+  <link rel="stylesheet" href="taskpane.css" />
+</head>
+<body>
+  <div id="dropZone">Drop your CT ZIP file here</div>
+  <canvas id="dicomCanvas"></canvas>
+  <div id="controls">
+    <label>Window Center: <input type="range" id="wcSlider" min="-1000" max="1000" value="40"></label>
+    <label>Window Width: <input type="range" id="wwSlider" min="1" max="2000" value="400"></label>
+    <button id="zoomBtn">Zoom</button>
+    <button id="panBtn">Pan</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+  <script src="https://unpkg.com/cornerstone-core@2.4.0/dist/cornerstone.min.js"></script>
+  <script src="https://unpkg.com/cornerstone-tools@4.21.2/dist/cornerstoneTools.min.js"></script>
+  <script src="https://unpkg.com/dicom-parser@1.8.6/dist/dicomParser.min.js"></script>
+  <script src="taskpane.js"></script>
+</body>
+</html>

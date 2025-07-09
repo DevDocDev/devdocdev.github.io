@@ -1,0 +1,31 @@
+#dropZone {
+  border: 2px dashed #0078D7;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  color: #0078D7;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+canvas {
+  display: block;
+  margin: 10px auto;
+  width: 512px;
+  height: 512px;
+  border: 1px solid #ccc;
+}
+
+#controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#controls label {
+  margin: 0 10px;
+}
+
+#controls button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
